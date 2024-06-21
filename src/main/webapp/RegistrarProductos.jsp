@@ -38,10 +38,14 @@
             </tr>
             <tr>
                 <td colspan="2" style="text-align:center">
-               	 <input type="submit" value="Registrar">
+               	 <input type="submit" value="Registrar" style="background-color: #DDB4E8; color: white;" onmouseover="this.style.backgroundColor='#C794E3 ';" onmouseout="this.style.backgroundColor='#B573C6 ';">
                 </td>
             </tr>
         </table>
     </form>
 </body>
+
+
 </html>
+
+

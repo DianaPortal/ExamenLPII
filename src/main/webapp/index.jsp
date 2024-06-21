@@ -10,28 +10,25 @@
 <h1 align="center">
 Ingresar al Sistema
 </h1>
-<form action="ControladorProducto" method="post">
+<form action="ControladorUsuario" method="post">
 <table align="center" border="2">
 <tr>
-	<td>usuario</td>
-	<td><input type="text" name="usuario"></td>
+	<td>Usuario</td>
+    <td><input type="text" name="usuario" placeholder="Usuario" required></td>
 </tr>
-
 <tr>
-	<td>password</td>
-	<td><input type="text" name="password"></td>
+	<td>Password</td>
+    <td><input type="password" name="password" placeholder="Contraseña" required></td>
 </tr>
-
-
 <tr>
-<td colspan="2" style="text-align:center">
-<input type="submit" value="Registrar">
-</td>
+    <td>
+        <input type="submit" value="Ingresar" style="background-color: #DDB4E8; color: white;" onmouseover="this.style.backgroundColor='#C794E3 ';" onmouseout="this.style.backgroundColor='#B573C6 ';">
+    </td>
 </tr>
 
 </table>
-
 </form>
-
 </body>
+
+
 </html>
